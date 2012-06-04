@@ -83,6 +83,9 @@ disconnecting from C3PO LTC31 (80060327) 00 00</pre>
 
 ### GET CHALLENGE ###
 
+
+
+
 Doc reference (spanish): 
 
 * [GET CHALLENGE](http://opendnie.cenatic.es/wiki/index.php/Documentacion_DNIe_Comandos#GET_CHALLENGE)
