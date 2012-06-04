@@ -23,6 +23,7 @@ Pyscard is the python smartcard library you need to execute this examples
 
 * GET CHIP INFO
 * SELECT && GET RESPONSE
+* GET CHALLENGE
 
 ### GET CHIP INFO ###
 
@@ -80,3 +81,18 @@ disconnecting from C3PO LTC31 (80060327) 00 00
 disconnecting from C3PO LTC31 (80060327) 00 00</pre>
 
 
+### GET CHALLENGE ###
+
+Doc reference (spanish): 
+
+* [GET CHALLENGE](http://opendnie.cenatic.es/wiki/index.php/Documentacion_DNIe_Comandos#GET_CHALLENGE)
+
+This sample get a challenge to be used in a security procedure:
+
+<pre>~$ ./getChallenge.py 
+insert a card (SIM card if possible) within 10s
+connecting to C3PO LTC31 (80060327) 00 00
+&gt;  00 84 00 00 08
+&lt;  49 95 52 E4 05 70 55 20 90 0 
+Challenge is 49 95 52 E4 05 70 55 20
+</pre>
