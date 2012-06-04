@@ -72,11 +72,11 @@ This example reads the 0x60, 0x1F path in a DNIe:
 <pre>$ ./selectDNIe.py 
 insert a card (SIM card if possible) within 10s
 connecting to C3PO LTC31 (80060327) 00 00
->  00 A4 00 00 02 60 1F
-<  []  61 E 
->  00 C0 00 00 0E
-<  ** ** ** ** ** ** ** ** ** ** ** ** ** ** 90 0 
+&gt;  00 A4 00 00 02 60 1F
+&lt;  []  61 E 
+&gt;  00 C0 00 00 0E
+&lt;  ** ** ** ** ** ** ** ** ** ** ** ** ** ** 90 0 
 disconnecting from C3PO LTC31 (80060327) 00 00
-disconnecting from C3PO LTC31 (80060327) 00 00
+disconnecting from C3PO LTC31 (80060327) 00 00</pre>
 
 
